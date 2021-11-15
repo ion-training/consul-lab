@@ -1,6 +1,18 @@
 # consul-client-server
 basic consul LAB using Vagrant, contains two clients and one sever
 
+# Topology
+```
+  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx
+  x                x                  x                x                  x                x
+  x consul server  x                  x consul client  x                  x consul client  x
+  x                x                  x      Docker    x                  x                x
+  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx
+          | .70                               | .71                                    |.72
+          |-----------------------------------|----------------------------------------|
+                                       192.168.56.0/24       
+```
+
 # How to use this repo
 Clone the repository and cd into it
 ```
@@ -30,7 +42,7 @@ Destroy the lab
 vagrant destroy -f
 ```
 
-# tree of this repo
+# File structure
 ```
 $ tree
 .
@@ -51,5 +63,3 @@ $ tree
     ├── client2.sh
     └── server.sh
 ```
-
-# Sample output
