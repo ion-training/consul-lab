@@ -6,7 +6,7 @@ basic consul LAB using Vagrant, contains two clients and one sever
   xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx
   x                x                  x                x                  x                x
   x consul server  x                  x consul client  x                  x consul client  x
-  x                x                  x      Docker    x                  x                x
+  x                x                  x                x                  x                x
   xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx
           | .70                               | .71                                    |.72
           |-----------------------------------|----------------------------------------|
