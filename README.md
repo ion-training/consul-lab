@@ -1,10 +1,10 @@
 # consul-client-server
-basic consul LAB using Vagrant, contains two clients and one sever
+Basic consul LAB using Vagrant, contains one server and two clients: `server`, `client1` & `client2`.
 
 # Topology
 ```
   xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx
-  x                x                  x                x                  x                x
+  x     server     x                  x     client1    x                  x     client2    x
   x consul server  x                  x consul client  x                  x consul client  x
   x                x                  x                x                  x                x
   xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx                  xxxxxxxxxxxxxxxxxx
