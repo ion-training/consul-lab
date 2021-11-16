@@ -26,7 +26,7 @@ cp -ap /vagrant/conf/consul.service /usr/lib/systemd/system/consul.service
 cp -ap /vagrant/conf/client1/consul.hcl /etc/consul.d/
 chown -R consul: /etc/consul.d /opt/consul/
 
-# nomad set bash env
+# consul set bash env
 cp -ap /vagrant/conf/consul-bash-env.sh /etc/profile.d/
 
 systemctl enable consul
