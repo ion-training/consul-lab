@@ -7,19 +7,19 @@ Vagrant.configure("2") do |config|
   config.vm.define "server" do |server|
     server.vm.hostname = "server"
     server.vm.provision "shell", path: "scripts/server.sh"
-    server.vm.network "private_network", ip: "192.168.56.70"
+    server.vm.network "private_network", ip: "192.168.56.81"
   end
 
   config.vm.define "client1" do |client1|
     client1.vm.hostname = "client1"
     client1.vm.provision "shell", path: "scripts/client1.sh"
-    client1.vm.network "private_network", ip: "192.168.56.71"
+    client1.vm.network "private_network", ip: "192.168.56.85"
   end
 
   config.vm.define "client2" do |client2|
     client2.vm.hostname = "client2"
     client2.vm.provision "shell", path: "scripts/client2.sh"
-    client2.vm.network "private_network", ip: "192.168.56.72"
+    client2.vm.network "private_network", ip: "192.168.56.86"
   end
 
   config.vm.provider "virtualbox" do |v|
