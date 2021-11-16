@@ -16,10 +16,10 @@ Basic consul LAB using Vagrant, contains one server and two clients: `server`, `
 # How to use this repo
 Clone the repository and cd into it
 ```
-git clone https://github.com/ion-consul/consul-client-server.git
+git clone https://github.com/ion-training/consul-lab.git
 ```
 ```
-cd consul-client-server.
+cd consul-lab
 ```
 
 Vagrant status to check available machines
